@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+# Two functions that implement matrix inversion with caching
+# That is, if a matrix has already been inverted, it will be read from cache
+# instead of being inverted again
 
 # This function constructs the CacheMatrix object, and will do the following:
 # 1) Set a matrix
